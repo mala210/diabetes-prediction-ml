@@ -34,7 +34,7 @@ pip install -r requirements.txt
 streamlit run app.py  
 
 ## Live Demo
-Add your Streamlit link here
+https://diabetes-prediction-ml-ezwvifspny8qermi4dyfpu.streamlit.app/
 
 ## Purpose
 This project demonstrates:
