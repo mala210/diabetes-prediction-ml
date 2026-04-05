@@ -1,55 +1,45 @@
-# Diabetes Prediction using Machine Learning
+# Diabetes Prediction App
 
-## Overview
+A machine learning web application that predicts the likelihood of diabetes based on user input features.
 
-This project focuses on predicting whether a patient is diabetic based on medical and lifestyle features using machine learning techniques.
+## Project Overview
+This project uses a trained Random Forest model to classify whether a person is likely to have diabetes based on key health indicators.
 
-## Dataset
+## Features
+- Age
+- Glucose Level
+- BMI
 
-The dataset includes several health-related features such as:
+## Model
+- Algorithm: Random Forest Classifier
+- Library: scikit-learn
+- Saved as: model.pkl
 
-* Age
-* Blood Pressure (Systolic & Diastolic)
-* Glucose level
-* BMI (Body Mass Index)
-* Height & Weight
-* Family medical history
+## Tech Stack
+- Python
+- Streamlit
+- pandas
+- numpy
+- scikit-learn
+- joblib
 
-## Preprocessing
+## Project Structure
+app.py  
+model.pkl  
+diabetes_training.ipynb  
+requirements.txt  
 
-* Checked and confirmed no missing values
-* Encoded categorical variables
-* Split data into training and testing sets
-* Handled class imbalance using model techniques (class weights)
+## How to Run
+pip install -r requirements.txt  
+streamlit run app.py  
 
-## Models Used
+## Live Demo
+Add your Streamlit link here
 
-* Random Forest
-* Support Vector Machine (SVM - RBF Kernel)
-* XGBoost
+## Purpose
+This project demonstrates:
+- Data preprocessing  
+- Model training  
+- Model deployment using Streamlit  
 
-## Evaluation Metrics
 
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* ROC-AUC
-
-## Results
-
-* Best ROC-AUC achieved by SVM (~0.80)
-* Dataset is imbalanced, so recall and ROC-AUC are more reliable than accuracy
-
-## Tools & Technologies
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* XGBoost
-* Matplotlib
-
- Notes..
-
-This project demonstrates practical implementation of machine learning models, comparison between algorithms, and handling imbalanced datasets in healthcare prediction.
