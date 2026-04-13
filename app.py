@@ -1,14 +1,6 @@
 import streamlit as st
 import numpy as np
 import joblib
-st.markdown("""
-<style>
-.stApp {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-}
-</style>
-""", unsafe_allow_html=True)
-
 # App title
 st.title("Diabetes Prediction App")
 
